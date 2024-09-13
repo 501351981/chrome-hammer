@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "有个锤子",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/chuizi-16.png",
+    "32":"icons/chuizi-32.png",
+    "48": "icons/chuizi-48.png",
+    "128": "icons/chuizi-128.png"
+  },
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "background": {
+    "service_worker": "service-worker/index.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content-scripts/index.js"]
+    }
+  ],
+  "permissions": ["storage", "tabs", "clipboardRead", "clipboardWrite"]
+}

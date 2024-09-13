@@ -1,0 +1,16 @@
+{
+  "name": "chrome-hammer-background",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^4.21.2"
+  }
+}

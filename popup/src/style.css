@@ -1,0 +1,26 @@
+/* 浅色模式样式 */
+:root {
+  --brand-color: #ed7976;
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --border-color: #aaa;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* 深色模式样式 */
+  :root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --border-color: #30363db3;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}

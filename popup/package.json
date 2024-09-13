@@ -1,0 +1,23 @@
+{
+  "name": "chrome-hammer-popup",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node watch-and-build.js"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "chokidar": "^3.6.0",
+    "element-plus": "^2.8.0",
+    "jsoneditor": "^10.1.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
+}
